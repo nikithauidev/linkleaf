@@ -1,0 +1,17 @@
+download project in  local folder
+import project in visual studio
+in the terminal run
+
+npm install @angular/cli
+
+then run
+
+npm install bootstrap
+
+then in   angular.json
+
+add 
+
+ "node_modules/bootstrap/dist/css/bootstrap.min.css"
+ 
+ in "styles": []
