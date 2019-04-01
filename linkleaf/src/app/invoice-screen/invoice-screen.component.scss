@@ -1,0 +1,49 @@
+$color-GrandaddyPurp: #1B1443;
+$color-NYCDiesel: #01BBB4;
+td,th {
+    text-align: center;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+
+.button-process{
+    display:flex; 
+    justify-content: space-around;
+}
+.invoiceTitle{
+    margin-bottom: 10px;
+    color: $color-GrandaddyPurp;
+    .subTitle1{
+        border-bottom: 2px solid $color-NYCDiesel;
+        font-size: 1.5rem;
+    }
+    .subTitle{
+        border-bottom: 1px solid $color-NYCDiesel;
+        font-size: 1.25rem;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .button-process {
+        display: inline;
+    .btn.btn-primary {
+        width: 100%;
+        margin: 10px auto;
+        padding: 0;
+        height: 35px;
+        }
+    }
+    .invoiceTitle{
+        .subTitle1{
+            font-size: 1.25rem;
+        }
+        .subTitle{
+            font-size: 1rem;
+        }
+    }
+}

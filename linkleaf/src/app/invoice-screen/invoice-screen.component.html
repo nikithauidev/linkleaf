@@ -1,0 +1,71 @@
+<div class="col-12">
+  <div class="container">
+    <div class="invoiceTitle">
+      <div class="subTitle1">
+        <h2>Retail Invoice</h2>
+      </div>
+    <br>
+      <div class="subTitle">
+        <h4>Invoice Number: {{invoiceNO}}</h4>
+      </div>
+      <div class="subTitle">
+        <h4>Invoice Date: {{invoiceDate | date : 'dd/MM/yyyy'}}</h4>
+      </div>
+      <div class="subTitle">
+        <h4>Customer Name: {{user | uppercase}}  </h4>
+      </div>
+    </div>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col-1">Sr. No.</th>
+          <th scope="col-5">Item</th>
+          <th scope="col-1">Quantity</th>
+          <th scope="col-2">Price</th>
+          <th scope="col-2">Product Total</th>
+          <th scope="col-3">Option</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of productData;let i = index ">
+          <td scope="row">{{i+1}}</td>
+          <td>{{data.selBrand}}&nbsp;{{data.selModel}}<br>({{data.selItem}}-{{data.selCategory}})</td>
+          <td><a class="mr-10" (click)="minusCounter(data)"><i class="fas fa-minus"></i></a>&nbsp;{{data.selQty}}&nbsp;<a class="ml-10" (click)="plusCounter(data)"><i class="fas fa-plus"></i></a></td>
+          <td>{{data.selPrice}}</td>
+          <td>{{data.selProductTotal}}</td>
+          <td><a (click)='removeItem(data)'><i class="fas fa-trash-alt"></i></a>
+          </td>
+        </tr>
+        <tr>
+          <th></th>
+          <td></td>
+          <td></td>
+          <td>Sub-Total</td>
+          <td>{{subtotal}}</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th></th>
+          <td></td>
+          <td></td>
+          <td>Tax @ 10%</td>
+          <td>{{taxTotal}}</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th></th>
+          <td></td>
+          <td></td>
+          <td>Final Total</td>
+          <td>{{finalTotal}}</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="button-process">
+        <button type="button" (click)="addMoreProducts()" class="btn btn-primary">Add More Products</button>
+        <button type="button" (click)="confirmOrder()" class="btn btn-primary">Place Order</button>
+        <button type="button"  (click)="removeAll()" class="btn btn-primary">Remove All Product</button>
+    </div>
+  </div>
+</div>

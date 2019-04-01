@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="col-12">
+    <div class="form-group">
+      <label for="">Category :</label>
+      <select class="form-control" (change)="selectionCat()" [(ngModel)]='selectedCategory' name="" id="">
+        <option value="">Select</option>
+        <option *ngFor="let product of products.Categories">{{product.productName}}
+        </option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="">Items :</label>
+      <select class="form-control" (change)="selectionItem()" [(ngModel)]='selectedItem' name="" id="">
+        <option value="">Select</option>
+        <option *ngFor="let item of categoriesArr" value="{{item.item}}">{{item.item}}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="">Brands:</label>
+      <select class="form-control" (change)="selectionBrand()" [(ngModel)]='selectedBrand' name="" id="">
+        <option value="">Select</option>
+        <option *ngFor="let item of itemArr" value="{{item.brand}}">{{item.brand}}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="">Models:</label>
+      <select class="form-control" (change)="selectionModel()" [(ngModel)]='selectedModel' name="" id="">
+        <option value="">Select</option>
+        <option *ngFor="let item of modelArr" value="{{item.model}}">{{item.model}}</option>
+      </select>
+    </div>
+    <div class="form-group quantity">
+      <label for="">Quantity:</label>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" (click)="minusCounter()" class="btn"><i class="fas fa-minus"></i></button>
+        <input type="button" [(ngModel)]=selectedQty disable class="btn" value="1">
+        <button type="button" (click)="plusCounter()" class="btn"><i class="fas fa-plus"></i></button>
+      </div>
+    </div>
+    <div *ngIf="triggerAlert" class="alert alert-danger" role="alert">
+      Quantity should be range beteen 1 to 10.
+    </div>
+    <div class="form-group">
+      <label for="">Price in dollar/ Unit</label>
+      <input class="form-control"  [(ngModel)]='selectedItemPrice' type="text">
+    </div>
+    <div class="form-group">
+      <label for="">Total Price before Tax</label>
+      <input class="form-control"  [(ngModel)]='selectedProductPrice' type="text">
+    </div>
+    <div>
+      <button type="button" (click)="addProduct()" routerLink="../invoice" class="btn btn-primary">Add Product</button>
+    </div>
+  </div>
+</div>

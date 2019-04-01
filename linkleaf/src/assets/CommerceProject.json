@@ -1,0 +1,894 @@
+{
+	"Categories": [{
+			"productName": "Clothes",
+			"items": [{
+					"item": "Shirts",
+					"brands": [{
+							"brand": "Raymond",
+							"models": [{
+									"model": "SlimFit",
+									"price": 60,
+									"imagePath": "https://www.gibbsmenswear.co.uk/images/gant-indigo-poplin-shirt-p223-859_image.jpg",
+									"discount": 7
+								},
+								{
+									"model": "flexin",
+									"price": 55,
+									"discount": 8
+								}
+							]
+						},
+						{
+							"brand": "Tommy",
+							"models": [{
+									"model": "Cotton",
+									"price": 80,
+									"discount": 27
+								},
+								{
+									"model": "Office",
+									"price": 45,
+									"discount": 6
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Pants",
+					"brands": [{
+							"brand": "OldNavy",
+							"models": [{
+									"model": "formal",
+									"price": 70,
+									"discount": 15
+								},
+								{
+									"model": "Jeans",
+									"price": 65,
+									"discount": 18
+								}
+							]
+						},
+						{
+							"brand": "Lewis",
+							"models": [{
+									"model": "Cotton",
+									"price": 70,
+									"discount": 37
+								},
+								{
+									"model": "Denim",
+									"price": 48,
+									"discount": 16
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Tshirts",
+					"brands": [{
+							"brand": "Hollister",
+							"models": [{
+									"model": "SlimFit",
+									"price": 22,
+									"discount": 7
+								},
+								{
+									"model": "Polo",
+									"price": 35,
+									"discount": 8
+								}
+							]
+						},
+						{
+							"brand": "AmericanEagle",
+							"models": [{
+									"model": "Polo",
+									"price": 40,
+									"discount": 13
+								},
+								{
+									"model": "Swim",
+									"price": 13,
+									"discount": 2
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Shorts",
+					"brands": [{
+							"brand": "OldNavy",
+							"models": [{
+									"model": "Summer",
+									"price": 45,
+									"discount": 17
+								},
+								{
+									"model": "Swim",
+									"price": 25,
+									"discount": 8
+								}
+							]
+						},
+						{
+							"brand": "Guess",
+							"models": [{
+									"model": "Beach",
+									"price": 50,
+									"discount": 27
+								},
+								{
+									"model": "Pyjama",
+									"price": 25,
+									"discount": 6
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"productName": "Shoes",
+			"items": [{
+					"item": "Reebok",
+					"brands": [{
+							"brand": "Runner",
+							"models": [{
+									"model": "Men",
+									"price": 100,
+									"discount": 10
+								},
+								{
+									"model": "Women",
+									"price": 90,
+									"discount": 15
+								}
+							]
+						},
+						{
+							"brand": "Athletic",
+							"models": [{
+								"model": "Men",
+								"price": 175,
+								"discount": 40
+							},
+							{
+								"model": "Women",
+								"price": 150,
+								"discount": 30
+							}
+						]
+						}
+					]
+				},
+				{
+					"item": "Puma",
+					"brands": [
+						{
+							"brand": "Runner",
+							"models": [{
+									"model": "Men",
+									"price": 224,
+									"discount": 80
+								},
+								{
+									"model": "Women",
+									"price": 150,
+									"discount": 55
+								}
+							]
+						},
+						{
+							"brand": "Athletic",
+							"models": [{
+									"model": "Men",
+									"price": 469,
+									"discount": 39
+								},
+								{
+									"model": "Women",
+									"price": 248,
+									"discount": 50
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Aasics",
+					"brands": [
+						{
+							"brand": "Runner",
+							"models": [{
+									"model": "Men",
+									"price": 240,
+									"discount": 26
+								},
+								{
+									"model": "Women",
+									"price": 174,
+									"discount": 58
+								}
+							]
+						},
+						{
+							"brand": "Athletic",
+							"models": [{
+									"model": "Men",
+									"price": 375,
+									"discount": 100
+								},
+								{
+									"model": "Women",
+									"price": 280,
+									"discount": 80
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Adidas",
+					"brands": [{
+							"brand": "Runner",
+							"models": [{
+									"model": "Men",
+									"price": 225,
+									"discount": 38
+								},
+								{
+									"model": "Women",
+									"price": 180,
+									"discount": 45
+								}
+							]
+						},
+						{
+							"brand": "Athletic",
+							"models": [{
+									"model": "Men",
+									"price": 375,
+									"discount": 60
+								},
+								{
+									"model": "Women",
+									"price": 290,
+									"discount": 30
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Fila",
+					"brands": [{
+							"brand": "Runner",
+							"models": [{
+									"model": "Men",
+									"price": 160,
+									"discount": 15
+								},
+								{
+									"model": "Women",
+									"price": 135,
+									"discount": 25
+								}
+							]
+						},
+						{
+							"brand": "Athletic",
+							"models": [{
+									"model": "Men",
+									"price": 255,
+									"discount": 60
+								},
+								{
+									"model": "Women",
+									"price": 180,
+									"discount": 26
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"productName": "Electronics",
+			"items": [{
+					"item": "Mobile",
+					"brands": [
+						{
+							"brand": "iOS",
+							"models": [
+								{
+									"model": "iphone8",
+									"price": 600,
+									"discount": 50
+								},
+								{
+									"model": "iphoneX",
+									"price": 900,
+									"discount": 40
+								}
+							]
+						},
+						{
+							"brand": "Android",
+							"models": [{
+									"model": "SamsungS9",
+									"price": 875,
+									"discount": 60
+								},
+								{
+									"model": "SamsungS10",
+									"price": 1000,
+									"discount": 50
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Tablet",
+					"brands": [{
+							"brand": "Samsung",
+							"models": [{
+									"model": "10inch",
+									"price": 297,
+									"discount": 20
+								},
+								{
+									"model": "8.4inch",
+									"price": 197,
+									"discount": 10
+								}
+							]
+						},
+						{
+							"brand": "iPad",
+							"models": [{
+									"model": "Regular",
+									"price": 429,
+									"discount": 0
+								},
+								{
+									"model": "Pro",
+									"price": 699,
+									"discount": 20
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Television",
+					"brands": [{
+							"brand": "Samsung",
+							"models": [{
+									"model": "Curve55inch",
+									"price": 1900,
+									"discount": 165
+								},
+								{
+									"model": "QLED",
+									"price": 3200,
+									"discount": 250
+								}
+							]
+						},
+						{
+							"brand": "Sony55inch",
+							"models": [{
+									"model": "Curve",
+									"price": 2100,
+									"discount": 190
+								},
+								{
+									"model": "QLED",
+									"price": 3800,
+									"discount": 500
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "DVD",
+					"brands": [{
+							"brand": "Sony",
+							"models": [{
+									"model": "BluRay",
+									"price": 275,
+									"discount": 45
+								},
+								{
+									"model": "Netflix",
+									"price": 375,
+									"discount": 130
+								}
+							]
+						},
+						{
+							"brand": "Samsung",
+							"models": [{
+									"model": "BluRay",
+									"price": 255,
+									"discount": 80
+								},
+								{
+									"model": "Netflix",
+									"price": 250,
+									"discount": 70
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Vacuum",
+					"brands": [{
+							"brand": "Dyson",
+							"models": [{
+									"model": "Bagless",
+									"price": 400,
+									"discount": 50
+								},
+								{
+									"model": "Canister",
+									"price": 175,
+									"discount": 25
+								}
+							]
+						},
+						{
+							"brand": "Eureka",
+							"models": [{
+									"model": "Bagless",
+									"price": 325,
+									"discount": 35
+								},
+								{
+									"model": "Canister",
+									"price": 152,
+									"discount": 19
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"productName": "Foods",
+			"items": [{
+					"item": "Vegetables",
+					"brands": [{
+							"brand": "Cauliflower",
+							"models": [{
+									"model": "California",
+									"price": 3.49,
+									"discount": 0
+								},
+								{
+									"model": "India",
+									"price": 4.50,
+									"discount": 0
+								}
+							]
+						},
+						{
+							"brand": "Onion",
+							"models": [{
+									"model": "Canada",
+									"price": 4.78,
+									"discount": 0
+								},
+								{
+									"model": "USA",
+									"price": 5.22,
+									"discount": 0
+								}
+							]
+						},
+						{
+							"brand": "Potato",
+							"models": [{
+									"model": "Ontario",
+									"price": 2.99,
+									"discount": 0
+								},
+								{
+									"model": "Vancover",
+									"price": 3.50,
+									"discount": 0
+								}
+							]
+						},
+						{
+							"brand": "Okkra",
+							"models": [{
+									"model": "Canada",
+									"price": 4.98,
+									"discount": 0
+								},
+								{
+									"model": "India",
+									"price": 5.68,
+									"discount": 0
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Fruits",
+					"brands": [{
+							"brand": "Oranges",
+							"models": [{
+									"model": "California",
+									"price": 4.97,
+									"discount": 0
+								},
+								{
+									"model": "SouthAfrica",
+									"price": 3.97,
+									"discount": 0
+								}
+							]
+						},
+						{
+							"brand": "Kiwi",
+							"models": [{
+									"model": "Newzealand",
+									"price": 3.29,
+									"discount": 0
+								},
+								{
+									"model": "USA",
+									"price": 2.99,
+									"discount": 0
+								}
+							]
+						},
+						{
+							"brand": "Cherry",
+							"models": [{
+									"model": "Ontario",
+									"price": 4.99,
+									"discount": 0
+								},
+								{
+									"model": "USA",
+									"price": 5.50,
+									"discount": 0
+								}
+							]
+						},
+						{
+							"brand": "Apple",
+							"models": [{
+									"model": "Gala",
+									"price": 3.98,
+									"discount": 0
+								},
+								{
+									"model": "Red",
+									"price": 1.29,
+									"discount": 0
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Lentils",
+					"brands": [{
+							"brand": "Moong",
+							"models": [{
+									"model": "Green",
+									"price": 9.00,
+									"discount": 0.65
+								},
+								{
+									"model": "Black",
+									"price": 7.50,
+									"discount": 1.25
+								}
+							]
+						},
+						{
+							"brand": "ChickPeas",
+							"models": [{
+									"model": "Black",
+									"price": 6.50,
+									"discount": 0.90
+								},
+								{
+									"model": "Yellow",
+									"price": 3.80,
+									"discount": 0.50
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "BabyFoods",
+					"brands": [{
+							"brand": "Cereal",
+							"models": [{
+									"model": "Gerber",
+									"price": 2.75,
+									"discount": 0.45
+								},
+								{
+									"model": "Nestle",
+									"price": 3.75,
+									"discount": 1.30
+								}
+							]
+						},
+						{
+							"brand": "Formula",
+							"models": [{
+									"model": "Gerber",
+									"price": 5.35,
+									"discount": 0.80
+								},
+								{
+									"model": "Nestle",
+									"price": 6.78,
+									"discount": 1.7
+								}
+							]
+						}
+					]
+
+				},
+				{
+					"item": "IceCream",
+					"brands": [{
+							"brand": "Chapman",
+							"models": [{
+									"model": "Chocolate",
+									"price": 4.0,
+									"discount": 0.5
+								},
+								{
+									"model": "Vanilla",
+									"price": 4.25,
+									"discount": 0.25
+								}
+							]
+						},
+						{
+							"brand": "Desilicious",
+							"models": [{
+									"model": "MalaiKulfi",
+									"price": 6.35,
+									"discount": 0.3
+								},
+								{
+									"model": "Mango",
+									"price": 6.21,
+									"discount": 0.89
+								}
+							]
+						}
+					]
+				}
+			]
+
+		},
+
+		{
+			"productName": "Homes",
+			"items": [{
+					"item": "LawnMover",
+					"brands": [{
+							"brand": "Millwaukee",
+							"models": [{
+									"model": "600HP",
+									"price": 300,
+									"discount": 75
+								},
+								{
+									"model": "750HP",
+									"price": 450,
+									"discount": 50
+								}
+							]
+						},
+						{
+							"brand": "HomeDepot",
+							"models": [{
+									"model": "550HP",
+									"price": 478,
+									"discount": 90
+								},
+								{
+									"model": "900HP",
+									"price": 700,
+									"discount": 122
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "SnowRemover",
+					"brands": [{
+							"brand": "Millwaukee",
+							"models": [{
+									"model": "600HP",
+									"price": 800,
+									"discount": 175
+								},
+								{
+									"model": "750HP",
+									"price": 1450,
+									"discount": 225
+								}
+							]
+						},
+						{
+							"brand": "Korean",
+							"models": [{
+									"model": "900HP",
+									"price": 1220,
+									"discount": 116
+								},
+								{
+									"model": "800HP",
+									"price": 1100,
+									"discount": 88
+								}
+							]
+						}
+					]
+
+				},
+				{
+					"item": "Stovetop",
+					"brands": [{
+							"brand": "Insignia",
+							"models": [{
+									"model": "Glasstop",
+									"price": 900,
+									"discount": 65
+								},
+								{
+									"model": "Coil",
+									"price": 750,
+									"discount": 125
+								}
+							]
+						},
+						{
+							"brand": "Frigadiare",
+							"models": [{
+									"model": "Glasstop",
+									"price": 800,
+									"discount": 90
+								},
+								{
+									"model": "Coil",
+									"price": 700,
+									"discount": 122
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Microwave",
+					"brands": [{
+							"brand": "Panasonic",
+							"models": [{
+									"model": "11CuFt",
+									"price": 215,
+									"discount": 45
+								},
+								{
+									"model": "09CuFt",
+									"price": 145,
+									"discount": 30
+								}
+							]
+						},
+						{
+							"brand": "HamiltonBeach",
+							"models": [{
+									"model": "11CuFt",
+									"price": 235,
+									"discount": 35
+								},
+								{
+									"model": "09CuFt",
+									"price": 155,
+									"discount": 20
+								}
+							]
+						}
+					]
+
+				},
+				{
+					"item": "SandwichMaker",
+					"brands": [{
+							"brand": "Phillips",
+							"models": [{
+									"model": "Double",
+									"price": 40,
+									"discount": 5
+								},
+								{
+									"model": "Single",
+									"price": 25,
+									"discount": 2.5
+								}
+							]
+						},
+						{
+							"brand": "Sunbeam",
+							"models": [{
+									"model": "Double",
+									"price": 35,
+									"discount": 3
+								},
+								{
+									"model": "Single",
+									"price": 21,
+									"discount": 0.89
+								}
+							]
+						}
+					]
+				},
+				{
+					"item": "Juicer",
+					"brands": [{
+							"brand": "Panasonic",
+							"models": [{
+									"model": "JustFruit",
+									"price": 205,
+									"discount": 38
+								},
+								{
+									"model": "SmoothieMaker",
+									"price": 156,
+									"discount": 14
+								}
+							]
+						},
+						{
+							"brand": "HamiltonBeach",
+							"models": [{
+									"model": "Ninja",
+									"price": 265,
+									"discount": 30
+								},
+								{
+									"model": "AllInOne",
+									"price": 300,
+									"discount": 80
+								}
+							]
+						}
+					]
+
+				}
+			]
+
+
+		}
+	]
+
+}

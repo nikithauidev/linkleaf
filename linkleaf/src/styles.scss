@@ -1,0 +1,111 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+
+$color-BlueDream: #0072F0;
+$color-GreenCrack: #1CE0AD;
+$color-LAConfidential: #0022AC;
+$color-NYCDiesel: #01BBB4;
+$color-WhiteWidow: #FFFFFF;
+$color-GrandaddyPurp: #1B1443;
+
+h1,h2,h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+body, h4,h5,h6,label {
+font-family: 'Noto Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+// .form-group {
+//     label{
+//         font-size: 20px;
+//     }
+//     .form-control{
+//         input{
+//             font-size: 18px;
+//             width: 400px;
+//             border: 1px solid $color-BlueDream;
+//             border-radius: 8px;
+//         }
+//     }
+// }
+
+#top, #bottom, #left, #right {
+	background: #C7C7C7;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 18px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 120px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: -75px; }
+div#top {
+    padding: 25px 0 0 40px;
+}
+.imgContainer {
+    #mobile-logo {
+        display: none;
+        width: 37px;
+        height: 38px;
+    }
+    #large-logo {
+        display: block;
+        width: 220px;
+        height: 50px;
+    }
+}
+
+
+input.form-control {
+    max-width: 400px;
+    font-size: 18px !important;
+    width: 100%;
+    border: 1px solid $color-BlueDream !important;
+    border-radius: 8px !important;
+}
+
+select.form-control {
+    max-width: 400px;
+    font-size: 18px !important;
+    width: 100%;
+    border: 1px solid $color-BlueDream !important;
+    border-radius: 8px !important;
+}
+.form-group label{
+    color: $color-LAConfidential;
+}
+
+.btn.btn-primary {
+    color: $color-GrandaddyPurp;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+    .imgContainer {
+        #mobile-logo {
+            display: block;
+        }
+        #large-logo {
+            display: none;
+        }
+    }
+    
+
+}
+

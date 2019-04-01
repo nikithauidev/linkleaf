@@ -1,0 +1,31 @@
+<app-logo-header></app-logo-header>
+<div class="col-12">
+  <div class="container">
+    <div class="login">
+      <div class="alert alert-danger" *ngIf="passwordMatch" role="alert">
+          Please enter valid credential to login
+      </div>
+      <form [formGroup]="loginForm" #lf="ngForm">
+        <div class="form-group">
+          <i class="far fa-user"></i>
+          <label>User Name</label>
+          <input type="text" class="form-control" #username formControlName="userName" required>
+        </div>
+        <div>
+  
+        </div>
+        <div class="form-group">
+          <i class="fas fa-key"></i>
+          <label for="password">Password</label>
+          <input type="password" class="form-control" #pass formControlName="password" required>
+        </div>
+        <div>
+          <button class="btn btn-primary" [disabled]="lf.invalid"
+            (click)="credentialMatch()">Login</button>
+            (user Name : admin, password : admin) 
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
